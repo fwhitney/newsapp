@@ -1,0 +1,154 @@
+.container{
+	margin: auto;
+	width: 100%;
+	border: 0px solid #222;
+	border-radius: 0px;
+	height: auto; 
+	max-height: 750px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background-color: #EEE;
+	box-shadow: 3px 3px 3px #AAA inset;
+}
+.containercontainer{
+	margin: auto;
+	width: 50%;
+	border: 3px solid #222;
+	border-radius: 4px;
+	background-color: #A55;
+}
+.news{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: auto;
+	width: 80%;
+	border: 2px solid #AAA;
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	background-color: #FFF;
+	display: block;
+}
+.title{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	text-decoration-line: none;
+	color: #000;
+	margin: 10px;
+	font-weight: bold;
+	
+}
+.url{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	text-align: center;
+}
+img{
+	text-align: center;
+	border: 0px solid #444;
+	margin: auto;
+	width: 80%;
+	height: auto;
+	float: center;
+	display: block;
+	margin-top: 20px;
+}
+.containertitle{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	text-align: center;
+	text-shadow: 1px 1px 2px #CCC;
+	text-decoration-line: none;
+	color: #000;
+	font-weight: bold;
+	display: block;
+}
+.topicfield{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: auto;
+	width: 80%;
+	float: center;
+	display: block;
+	height: 30px;
+	font-weight: bold;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+.datefield{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: auto;
+	width: 40%;
+	float: center;
+	display: block;
+	height: 20px;
+	font-weight: bold;
+}
+.topicdesc{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: auto;
+	width: 80%;
+	float: center;
+	display: block;
+	height: 30px;
+	font-weight: bold;
+	color: black;
+	margin-bottom: -5px;
+}
+.datedesc{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: auto;
+	width: 100%;
+	float: center;
+	display: block;
+	height: 30px;
+	font-weight: bold;
+	color: black;
+	margin-bottom: -10px;
+	text-align: center;
+}
+
+.button{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: auto;
+	width: 100px;
+	float: center;
+	display: block;
+	height: 30px;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	text-align: center;
+}
+.authordate{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: auto;
+	width: 90%;
+	color: #666;
+	//height: 100px;
+	display: block;
+	overflow:auto;
+	border: 0px solid #AAA;
+}
+.author{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	margin-top: -15px;
+	float: left;
+	width: 90%;
+	color: #666;
+	text-align: left;
+}
+.date{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	margin-top: -20px;
+	width: 90%;
+	color: #666;
+	float: left;
+	text-align: left;
+	//clear: left;
+}
+
+
+

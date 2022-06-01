@@ -1,0 +1,38 @@
+<div class="containercontainer">
+	<div class="containertitle">
+	<p>Red Tide News</p>
+	</div>
+	<div class="topicdesc">
+		<p>Enter New News Topic:</p>
+	</div>
+	<input type="text" #topic class="topicfield" placeholder="Red Tide">
+	<div class="datedesc">
+		<p>Enter New Start Date (1 mo limit):</p>
+	</div>
+	<input type="text" #date class="datefield" placeholder="2022-05-10">
+	<!--On button click, execute the refreshData() function with the values typed in the input bars.) -->
+	<button (click)="refreshData(topic.value, date.value)" class="button">Get News</button>
+<div class="container">
+	<!--For all articles provided by the API, create a div. (20 or less, free tier)-->
+	<div class="news" *ngFor=" let value of rawdata">
+		<div class="image">
+			<!--Gets the urlToImage value in the current index of the rawvalues array (article), displays it.-->
+			<img src={{value.urlToImage}}>
+		</div>
+		<div class="title">
+			<!--Gets the url value in the article, displays it.-->
+			<a href="{{value.url}}" style="text-decoration: none; color:#000;">{{value.title}}</a>
+		</div>
+		<div class="authordate">
+		<div class="author">
+			<!--Gets the author value in the article, displays it.-->
+			<p>{{value.author}}</p>
+		</div>
+		<div class="date">
+			<!--Gets the publishedAt value in the article, displays it.-->
+			<p>{{value.publishedAt}}</p>
+		</div>
+		</div>
+	</div>
+</div>
+</div>
